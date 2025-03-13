@@ -31,11 +31,7 @@ app.get('/api/random', (req, res) => {
 });
 
 app.get('/api/query', (req, res) => {
-    const id = req.query.id; // Get the 'id' query parameter from the URL
-    const name = req.query.name; // Get the 'name' query parameter from the URL
-
-    // Send a JSON response with the values of id and name
-    res.json({ id: id, name: name });
+    res.json(req.query);
 });
 
 // Example route 4: Accept URL parameters (e.g., /api/say/hello)
