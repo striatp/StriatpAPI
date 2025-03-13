@@ -11,7 +11,7 @@ app.use((req, res, next) => {
 
 // Home route
 app.get('/', (req, res) => {
-    res.send('Welcome to my API!');
+    res.send('Welcome to my API, uh, yes.');
 });
 
 // Example route 1: Get a message
