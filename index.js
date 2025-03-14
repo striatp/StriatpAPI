@@ -30,9 +30,6 @@ app.get('/api/random', (req, res) => {
     res.json({ number: randomNumber });
 });
 
-app.get('/api/query', (req, res) => {
-    res.json(req.query);
-});
 
 // Example route 4: Accept URL parameters (e.g., /api/say/hello)
 app.get('/api/say/:word', (req, res) => {
