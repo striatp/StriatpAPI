@@ -11,7 +11,7 @@ app.use((req, res, next) => {
 
 // Home route
 app.get('/', (req, res) => {
-    res.send('Hello, my name is Sébastien, and I am a 16-year-old high school student from France. I am a software developer and full-stack Roblox game developer, passionate about technology, programming, and design. My expertise lies in LuaU and ForgeScript, which I have mastered, alongside strong skills in TypeScript, JavaScript, Python, HTML, CSS, and Roblox development.
+    res.send("Hello, my name is Sébastien, and I am a 16-year-old high school student from France. I am a software developer and full-stack Roblox game developer, passionate about technology, programming, and design. My expertise lies in LuaU and ForgeScript, which I have mastered, alongside strong skills in TypeScript, JavaScript, Python, HTML, CSS, and Roblox development.
 
 I have experience creating Discord bots, developing innovative tools, and building complex game systems. My focus is on mastering game mechanics, UI/UX design, and web development, as these are key areas that drive my projects. I thrive in team environments, where collaboration fuels creativity and learning, allowing me to grow both personally and professionally.
 
@@ -19,7 +19,7 @@ Currently, I am dedicated to a major project while continuing to expand my knowl
 
 Beyond development, I have a deep passion for music and have played the piano for over 9 years. One of my aspirations is to teach piano, sharing my love for music with others. I also enjoy hiking, as it helps me recharge and find inspiration in nature.
 
-I am committed to learning, building, and creating technology that makes a difference, while staying connected to my passions in life.');
+I am committed to learning, building, and creating technology that makes a difference, while staying connected to my passions in life.");
 });
 
 // Example route 1: Get a message
