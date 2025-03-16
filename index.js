@@ -10,7 +10,7 @@ const message = `
     <title>About Sébastien</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; padding: 20px; background-color: #EEEEEE; }
-        h1 { color:rgb(50, 71, 91); }
+        h1 { color:#34485b; }
         p { color: #333; line-height: 1.6; }
         strong { font-weight: bold; }
         .container { max-width: 800px; margin: auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
