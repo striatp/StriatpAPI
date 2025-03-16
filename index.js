@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 3000;
 
 // Enable CORS for Roblox
 app.use((req, res, next) => {
@@ -30,8 +29,9 @@ app.get('/api/random', (req, res) => {
     res.json({ number: randomNumber });
 });
 
+// Redirect /discord to Discord
 app.get('/discord', (req, res) => {
-    res.redirect('https://discord.com'); // Redirects the user to Discord
+    res.redirect('https://discord.com');
 });
 
 // Example route 4: Accept URL parameters (e.g., /api/say/hello)
@@ -40,7 +40,5 @@ app.get('/api/say/:word', (req, res) => {
     res.json({ message: `You said: ${word}` });
 });
 
-// Start the server
-app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
-});
+// Export the app for Vercel (No app.listen())
+module.exports = app;
