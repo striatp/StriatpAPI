@@ -9,34 +9,32 @@ const message = `
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Sébastien</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; padding: 20px; background-color: #f4f4f4; }
+        body { font-family: Arial, sans-serif; margin: 40px; padding: 20px; background-color: #EEEEEE; }
         h1 { color: #2c3e50; }
-        p { color: #34495e; line-height: 1.6; }
-        strong { color: #e74c3c; }
+        p { color: #333; line-height: 1.6; }
+        strong { font-weight: bold; }
         .container { max-width: 800px; margin: auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>About Me</h1>
-        <p><strong>Hello, my name is Sébastien</strong>, and I am a <strong>16-year-old high school student from France</strong>. 
-        I am a <strong>software developer and full-stack Roblox game developer</strong>, passionate about <strong>technology, programming, and design</strong>.</p>
+        <p><strong>Hey, I'm Sébastien!</strong> I'm a <strong>16-year-old high school student from France</strong> who loves programming, technology, and design. 
+        I'm a <strong>software developer and full-stack Roblox game developer</strong> with a strong passion for creating and improving digital experiences.</p>
 
-        <p>My expertise lies in <strong>LuaU and ForgeScript</strong>, which I have mastered, alongside strong skills in 
-        <strong>TypeScript, JavaScript, Python, HTML, CSS</strong>, and <strong>Roblox development</strong>.</p>
+        <p>I've been working with <strong>LuaU and ForgeScript</strong> for years, and I also have solid experience in <strong>TypeScript, JavaScript, Python, HTML, CSS</strong>, and <strong>Roblox development</strong>. 
+        Whether it's scripting, UI/UX design, or web development, I'm always looking for ways to improve and push my skills further.</p>
 
-        <p>I have experience creating <strong>Discord bots</strong>, developing innovative tools, and building complex game systems. 
-        My focus is on <strong>mastering game mechanics, UI/UX design, and web development</strong>, as these are key areas that drive my projects. 
-        I thrive in <strong>team environments</strong>, where collaboration fuels creativity and learning, allowing me to grow both personally and professionally.</p>
+        <p>I enjoy building <strong>Discord bots</strong>, developing tools, and designing complex game systems. 
+        I love working in <strong>team environments</strong> where I can learn, collaborate, and bring creative ideas to life.</p>
 
-        <p>Currently, I am dedicated to a <strong>major project</strong> while continuing to expand my knowledge in 
-        <strong>GUI design, advanced scripting, and full-stack game development</strong>. My dream is to become a <strong>self-employed entrepreneur</strong>, 
-        turning my ideas into impactful and sustainable tools.</p>
+        <p>Right now, I'm focusing on a <strong>major project</strong> while also diving deeper into <strong>GUI design, advanced scripting, and full-stack game development</strong>. 
+        My goal is to become a <strong>self-employed developer</strong> and turn my ideas into meaningful and sustainable tools.</p>
 
-        <p>Beyond development, I have a deep passion for <strong>music</strong> and have played the <strong>piano for over 9 years</strong>. 
-        One of my aspirations is to teach piano, sharing my love for music with others. I also enjoy <strong>hiking</strong>, as it helps me recharge and find inspiration in nature.</p>
+        <p>Besides programming, music is a big part of my life—I’ve been playing the <strong>piano for over 9 years</strong>, and I’d love to teach it one day. 
+        I also enjoy <strong>hiking</strong> to take a break and get inspired by nature.</p>
 
-        <p><strong>I am committed to learning, building, and creating technology that makes a difference</strong>, while staying connected to my passions in life.</p>
+        <p>I'm always looking to learn new things, improve my projects, and create tools that make a difference.</p>
     </div>
 </body>
 </html>
